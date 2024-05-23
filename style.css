@@ -1,0 +1,144 @@
+body{
+    color: rgb(78, 78, 78);
+    
+}
+/*  */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(texture-dark-concrete-floor-mist-260nw-513032461.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 5px;
+}
+.wrapper{
+    /* max-width: 420px; */
+    max-width: 300px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 2);
+    /* color: #fff; */
+    border-radius: 10px;
+    /* padding: 40px 40px; */
+}
+/*  */
+/* .div1{
+    justify-content: center;
+
+} */
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    padding: 10px 0 5px 0;
+}
+/* Form */
+/* .div1_1{
+
+} */
+.div1_1_1,.div1_1_3{
+    display: flex;
+    padding-top: 5px;
+    font-weight: bolder;
+}
+/* .div1_1_1,.div1_1_3  */
+.div1_1_1_p1,.div1_1_3_p1{
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+/* .div1_1_1,.div1_1_3  */
+.div1_1_1_p2,.div1_1_3_p2{
+    padding-left: 10px;
+    font-weight: 500;
+    color: rgb(63, 63, 63);
+}
+/* .div1_1_2 */
+.div1_1_2 .div1_1_2_name,.div1_1_2_email,.div1_1_2_password{
+    padding: 3px 0 7px 0;
+}
+.div1_1_2 div input{
+    padding: 5px;
+    font-size: small;
+    width: 270px;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.div1_1_2 .div1_1_2_4{
+    padding: 0;
+}
+.div1_1_2 .div1_1_2_4 .div1_2_4_2,.div1_2_4_3{
+    font-size: medium;
+    padding-left: 30px;
+}
+.div1_1_2 .div1_1_2_4 input{
+    padding: 0;
+    width: auto;
+}
+
+
+/* div_1_1_4 */
+.div_1_1_4 .div1_1_4_textarea,.div1_1_4_select,.div1_1_4_checkbox{
+    padding: 5px 0 5px 0;
+    
+}
+.div1_1_4_textarea textarea{
+    background-color: rgb(230, 230, 230);
+    color: black;
+    border-radius: 5px;
+    border: none;
+}
+.div1_1_4 .div1_1_4_select select{
+    padding: 5px;
+    font-size: small;
+    width: 270px;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.div1_1_4_checkbox .div1_1_4_checkbox_development {
+    /* padding-left: 30px; */
+    width: auto;        
+    font-size: medium;
+}
+.div1_1_4_checkbox_development{
+    padding-left: 60px;
+    width: auto;        
+    font-size: medium;
+}
+.div1_1_4_checkbox_design{
+    padding-left: 60px;
+    width: auto;        
+    font-size: medium;
+}
+.div1_1_4_checkbox_business{
+    padding-left: 60px;
+    width: auto;        
+    font-size: medium;
+}
+.div_btn{
+    padding: 30px 25%;
+}
+.btn{
+    width: 100%;
+    height: 35px;
+    color: white;
+    background: rgb(56, 33, 255);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, .1); */
+    cursor: pointer;
+    font-size: 16px;
+    /* color: #333; */
+    font-weight: 600;
+}
